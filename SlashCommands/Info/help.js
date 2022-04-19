@@ -11,14 +11,14 @@ module.exports = {
 
     run: async (client, interaction) => {
        const embed = new MessageEmbed()
-            .setTitle(`${client.user.username}'s commands`)
+            .setTitle('SATC Bot commands')
             .addField('Config command', '\`setmodlogs\`')
             .addField('Mod commands', '\`addrole\`, \`ban\`, \`clear\`, \`kick\`, \`lock\`, \`nickname\`, \`removerole\`, \`slowmode\`, \`timeout\`, \`unban\`, \`unlock\`, \`unwarn\`, \`warn\`, \`warnings\`')
             .addField('Info commands', '\`help\`, \`ping\`, \`userinfo\`')
-            .addField('Bot name', `\`${client.user.username}\``, true)
+            .addField('Bot name', 'SATC Bot', true)
             .addField('Discriminator', `\`#${client.user.discriminator}\``, true)
             .setThumbnail(client.user.displayAvatarURL())
-            .setFooter(`${interaction.member.user.username}`, interaction.member.user.displayAvatarURL({
+            .setFooter('SATC Bot', interaction.member.user.displayAvatarURL({
                 dynamic: true
             }))
             .setColor(interaction.guild.me.displayHexColor)
