@@ -1,7 +1,7 @@
 {
-    "name": "leaf",
+    "name": "SATC MBot",
     "version": "1.0.0",
-    "description": "",
+    "description": "Msg from SATC ownership: Don't use it.",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
